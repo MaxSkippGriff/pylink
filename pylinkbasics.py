@@ -35,6 +35,5 @@ tk.closeDataFile()
 
 # Close eye tracker link and close calibration window
 tk.receiveDataFile('test.edf', 'test.edf')
-# 
 tk.close()
 pylink.closeGraphics()
